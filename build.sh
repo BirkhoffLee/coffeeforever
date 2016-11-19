@@ -21,7 +21,7 @@ unzip master.zip -d .
 rm master.zip
 cd $2-master
 npm install
-echo "$(pwd)/$2-master/src" > ~/script_path
+echo "$(pwd)/src" > ~/script_path
 
 # cleanup
 apt-get clean
