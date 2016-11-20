@@ -1,0 +1,20 @@
+build:
+  frontend:
+    image: bash
+    commands:
+      - bash -n build.sh
+      - bash -n run.sh
+notify:
+  email:
+    from: drone@birkhoff.me
+    host: smtp.gmail.com
+    username: $$GMAIL_USERNAME
+    password: $$GMAIL_PASSWORD
+    recipients:
+      - admin@birkhoff.me
+    subject: >
+      [{{ build.status }}]
+      {{ repo.owner }}/{{ repo.name }}
+      ({{ build.branch }} - {{ truncate build.commit 8 }})
+    template: >
+      https://git.io/vgvPz
