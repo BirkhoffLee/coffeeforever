@@ -11,9 +11,9 @@
         <img src="https://img.shields.io/docker/pulls/birkhofflee/coffeeforever.svg"
              alt="Docker Pulls">
     </a>
-    <!-- <a href="https://drone.birkhoff.me/BirkhoffLee/coffeeforever">
+    <a href="https://drone.birkhoff.me/BirkhoffLee/coffeeforever">
         <img src="https://drone.birkhoff.me/api/badges/BirkhoffLee/coffeeforever/status.svg"
-             alt="Build Status"> -->
+             alt="Build Status">
     </a>
 </p>
 <p align="center">
