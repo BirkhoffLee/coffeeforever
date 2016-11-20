@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://rawgit.com/BirkhoffLee/coffeeforever/master/logo.svg"
+    <img src="https://raw.githubusercontent.com/BirkhoffLee/coffeeforever/master/logo.svg"
          height="120">
 </p>
 <p align="center">
@@ -17,7 +17,7 @@
     </a>
 </p>
 <p align="center">
-    <sup><i>A **base Docker image** for CoffeeScript applications running on Forever. </i></sup>
+    <sup><i>A <strong>base Docker image</strong> for CoffeeScript applications running on Forever. </i></sup>
 </p>
 
 # Contributing
