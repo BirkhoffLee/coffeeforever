@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/BirkhoffLee/coffeeforever/master/logo.svg"
+    <img src="https://rawgit.com/BirkhoffLee/coffeeforever/master/logo.svg"
          height="120">
 </p>
 <p align="center">
