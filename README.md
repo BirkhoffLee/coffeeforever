@@ -20,6 +20,9 @@
     <sup><i>A <strong>base Docker image</strong> for CoffeeScript applications running on Forever. </i></sup>
 </p>
 
+# How To Use 
+See [BirkhoffLee/Anonypages:/Dockerfile](https://github.com/BirkhoffLee/AnonyPages/blob/master/Dockerfile). 
+
 # Contributing
 Only one rule: **Test before submitting a pull request**.
 
