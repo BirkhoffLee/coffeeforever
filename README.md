@@ -23,6 +23,12 @@
 # How To Use 
 See [BirkhoffLee/Anonypages:/Dockerfile](https://github.com/BirkhoffLee/AnonyPages/blob/master/Dockerfile). 
 
+# Clean The Logfiles
+The following will clean **ALL** containers' forever logs **PERMANENTLY**. Use carefully!
+```
+$ docker ps -aq | xargs -I ID docker exec ID bash -c "[ -d \"/root/.forever\" ] && rm -rf /root/.forever/*.log"
+```
+
 # Contributing
 Only one rule: **Test before submitting a pull request**.
 
