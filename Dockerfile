@@ -1,4 +1,4 @@
-FROM node:0.10-slim
+FROM node:6-slim
 
 MAINTAINER Birkhoff Lee <admin@birkhoff.me>
 
