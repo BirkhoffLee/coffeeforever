@@ -21,7 +21,8 @@
 </p>
 
 # How To Use 
-See [BirkhoffLee/Anonypages:/Dockerfile](https://github.com/BirkhoffLee/AnonyPages/blob/master/Dockerfile). 
+**Don't use.**
+<del>See [BirkhoffLee/Anonypages:/Dockerfile](https://github.com/BirkhoffLee/AnonyPages/blob/master/Dockerfile). </del>
 
 # Clean The Logfiles
 The following will clean **ALL** containers' forever logs **PERMANENTLY**. Use carefully!
